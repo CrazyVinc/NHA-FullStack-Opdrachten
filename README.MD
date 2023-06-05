@@ -1,0 +1,1 @@
+Dit is mijn repository voor mijn NHA opleiding als Full Stack Developer. Voor meer informatie over de beroepsopleiding Full Stack Developer, kun je terecht op de website van NHA: www.nha.nl/beroepsopleidingen/ict/full-stack-developer.
