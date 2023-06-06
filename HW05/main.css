@@ -1,0 +1,31 @@
+nav {
+    background-color: cadetblue;
+    width: 97.5%;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(72, 101, 102);
+    width: 97.5%;
+    bottom: 0;
+    position: absolute;
+    padding: 5px;
+}
+
+
+#TableRed{background-color:red;}
+#TableBlue{background-color:blue;}
+#TableGreen{background-color:green;}
+#TableYellow{background-color:yellow;}
+#TablePurple{background-color:purple;}
+#TablePink{background-color:pink;}
+#TableBrown{background-color:brown;}
+#TableGray{background-color:gray;}
+#TableMagenta{background-color:magenta;}
+#TableLime{background-color:lime;}
+#TableTeal{background-color:teal;}
+#TableSilver{background-color:silver;}
+#TableRedOrange{background-color:orangered;}
+#TableIndigo{background-color:indigo;}
+#TableTurquoise{background-color:turquoise;}
+#TableViolet{background-color:violet;}
