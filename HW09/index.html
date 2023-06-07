@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HW09 jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myButton").click(function () {
+                $("#myElement").hide();
+                alert("De knop is geklikt!");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>jQuery Toepassing</h1>
+    <noscript>
+        Om deze pagina goed telaten functioneren moet u javascript activeren.
+    </noscript>
+
+    <div id="myElement">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam perferendis temporibus ducimus expedita
+        commodi ab asperiores in suscipit officiis quae ipsa assumenda, incidunt quasi laborum molestias quidem
+        voluptates eligendi nisi.
+    </div>
+
+    <button id="myButton">Klik hier</button>
+</body>
+
+</html>
