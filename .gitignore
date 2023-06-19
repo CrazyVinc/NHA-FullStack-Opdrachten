@@ -1,2 +1,3 @@
 *.zip
 *.local
+__pycache__
