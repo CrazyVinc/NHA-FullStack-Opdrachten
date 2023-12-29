@@ -1,0 +1,24 @@
+body {
+    background-color: goldenrod;
+}
+
+main {
+    padding: 25px;
+    background-color: red;
+    margin: -8px;
+}
+
+.articles {
+    background-color: orangered;
+    margin-left: 50%;
+}
+
+article {
+    border: solid 5px white;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin: 0px;
+}
