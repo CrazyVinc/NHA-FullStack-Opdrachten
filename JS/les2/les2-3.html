@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 2-3</title>
+</head>
+
+<body>
+
+    <script>
+        let naam = prompt("Wat is je naam?");
+        let geboortejaar = prompt("Wat is je geboortejaar?");
+        let huidigJaar = new Date().getFullYear();
+        let leeftijd = huidigJaar - geboortejaar;
+        let welkomTekst = `Welkom, ${naam}! Je bent geboren in ${geboortejaar} en bent nu ${leeftijd} jaar oud.`;
+        let lengteZin = welkomTekst.length;
+        console.log("Aantal tekens in de zin: ", lengteZin);
+    </script>
+</body>
+
+</html>
