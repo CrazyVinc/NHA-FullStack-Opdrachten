@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogalerij</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .gallery-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-photo img {
+            width: 400px;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+
+        .thumbnails img {
+            width: 100px;
+            height: 75px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallery-container">
+        <div class="main-photo">
+            <img id="mainImage" src="https://picsum.photos/id/1/300/400" alt="Hoofdfoto">
+            <div id="imageDescription" class="image-description">Beschrijving van de foto</div>
+        </div>
+        <div class="thumbnails">
+            <img src="https://picsum.photos/id/2/300/400" alt="Thumbnail 1" title="Beschrijving 1">
+            <img src="https://picsum.photos/id/3/300/400" alt="Thumbnail 2" title="Beschrijving 2">
+            <img src="https://picsum.photos/id/4/300/400" alt="Thumbnail 3" title="Beschrijving 3">
+        </div>
+    </div>
+    <script src="script10-4.js"></script>
+</body>
+
+</html>
